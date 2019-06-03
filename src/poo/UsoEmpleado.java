@@ -28,7 +28,11 @@ public class UsoEmpleado {
 
         jefe_TI.setIncentivo(2022);
 
-        Empleado[] misEmpleados = new Empleado[6];
+        Jefatura jefe_Administracion = new Jefatura("Pedro",
+                30230, 2012, 3, 3);
+        jefe_Administracion.setIncentivo(2020);
+
+        Empleado[] misEmpleados = new Empleado[7];
         misEmpleados[0] = new Empleado("Agustin Peralta",
                 30000, 2019, 11, 23);
         misEmpleados[1] = new Empleado("Ana Lopez",
@@ -40,7 +44,7 @@ public class UsoEmpleado {
         misEmpleados[4] = jefe_TI; // Polimorfismo en Acción
         misEmpleados[5] = new Jefatura("Blanca", 98223,
                 1999, 3, 12); // Polimorfismo
-
+        misEmpleados[6] = jefe_Administracion; // Más polimorfismo (Jefatura <-> Empleado)
         Jefatura jefa_Finanzas = (Jefatura) misEmpleados[5];
         jefa_Finanzas.setIncentivo(400000);
     /* for(int i = 0; i< misEmpleados.length; i++){
