@@ -45,8 +45,10 @@ public class UsoEmpleado {
         misEmpleados[5] = new Jefatura("Blanca", 98223,
                 1999, 3, 12); // Polimorfismo
         misEmpleados[6] = jefe_Administracion; // Más polimorfismo (Jefatura <-> Empleado)
-        Jefatura jefa_Finanzas = (Jefatura) misEmpleados[5];
+        Jefatura jefa_Finanzas = (Jefatura) misEmpleados[5]; // Casting de Objetos
         jefa_Finanzas.setIncentivo(400000);
+
+
     /* for(int i = 0; i< misEmpleados.length; i++){
             misEmpleados[i].subeSueldo(5);
         }*/
@@ -112,7 +114,7 @@ class Empleado {
     private Date altaContrato;
 }
 
-class Jefatura extends Empleado {
+final class Jefatura extends Empleado {
 
     private double incentivo;
 
@@ -130,3 +132,4 @@ class Jefatura extends Empleado {
     }
 
 }
+
