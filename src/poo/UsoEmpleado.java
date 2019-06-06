@@ -1,30 +1,14 @@
 package poo;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class UsoEmpleado {
 
     public static void main(String[] args) {
-        /*
-        Empleado empleado1 = new Empleado(
-                "Paco Gómez", 85000, 2019, 03, 15);
-        Empleado empleado2 = new Empleado(
-                "Ana Lopez", 95000, 1995, 06, 02);
-        Empleado empleado3 = new Empleado(
-                "Maria Martin", 10500, 2002, 03, 15);
 
-        empleado1.subeSueldo(5);
-        empleado2.subeSueldo(5);
-        empleado3.subeSueldo(5);
-
-        System.out.println("Nombre: " + empleado1.dameNombre() +
-                " Sueldo: "+ empleado1.dameSueldo() + " Fecha de alta: " + empleado1.dameFechaContrato());
-        System.out.println("Nombre: " + empleado1.dameNombre() +
-                " Sueldo: "+ empleado2.dameSueldo() + " Fecha de alta: " + empleado2.dameFechaContrato());
-        System.out.println("Nombre: " + empleado1.dameNombre() +
-                " Sueldo: "+ empleado3.dameSueldo() + " Fecha de alta: " + empleado3.dameFechaContrato());
-*/
-        Jefatura jefe_TI = new Jefatura("Laura", 50500, 2020, 1, 3);
+        Jefatura jefe_TI = new Jefatura("Laura", 5500, 2020, 1, 3);
 
         jefe_TI.setIncentivo(2022);
 
@@ -48,19 +32,18 @@ public class UsoEmpleado {
         Jefatura jefa_Finanzas = (Jefatura) misEmpleados[5]; // Casting de Objetos
         jefa_Finanzas.setIncentivo(400000);
 
+        System.out.println(jefa_Finanzas.tomarDecisiones("Viernes Casual"));
+        System.out.println("El Jefe "+ jefa_Finanzas.dameNombre() + "Tiene un bonus de: " +
+                 jefa_Finanzas.establece_bonus(500));
+        System.out.println(misEmpleados[3].dameNombre() + " tiene un bonus de: " +
+                misEmpleados[3].establece_bonus(200));
 
-    /* for(int i = 0; i< misEmpleados.length; i++){
-            misEmpleados[i].subeSueldo(5);
-        }*/
         for (Empleado e : misEmpleados) {
             e.subeSueldo(5);
         }
-/*
-        for (int i = 0; i < misEmpleados.length; i++){
-            System.out.println("Nombre: " + misEmpleados[i].dameNombre()+
-                    " Sueldo: " + misEmpleados[i].dameSueldo()
-            + " Fecha Alta: "+ misEmpleados[i].dameFechaContrato());
-        }*/
+
+        Arrays.sort(misEmpleados);
+
         for (Empleado e : misEmpleados) {
 
             System.out.println("Nombre: " + e.dameNombre() +
@@ -72,7 +55,7 @@ public class UsoEmpleado {
 
 }
 
-class Empleado {
+class Empleado implements Comparable, Trabajadores {
     // Constructor simple
     public Empleado(String nom, double sue, int agno, int mes, int dia) {
 
@@ -80,6 +63,7 @@ class Empleado {
         sueldo = sue;
         GregorianCalendar calendario = new GregorianCalendar(agno, mes - 1, dia);
         altaContrato = calendario.getTime();
+
     }
 
     // Constructor sobrecargado
@@ -87,9 +71,15 @@ class Empleado {
         this(nom, 3000, 2000, 01, 01);
     }
 
-    // Getter
+    public double establece_bonus(double gratificacion){
+        return Trabajadores.bonusBase + gratificacion;
+    }
+
+
     public String dameNombre() {
+        // Getter
         return nombre;
+
     }
 
     // Getter
@@ -108,13 +98,27 @@ class Empleado {
         sueldo += aumento;
     }
 
+    // Implementación de la Interfaz compareTo de Comparable
+
+    public int compareTo(Object miObjeto) {
+        // hacer un casting de objeto a objeto empleado
+        Empleado otroEmpleado = (Empleado) miObjeto;
+        if (this.sueldo < otroEmpleado.sueldo) {
+            return -1;
+        }
+        if (this.sueldo > otroEmpleado.sueldo) {
+            return 1;
+        }
+        return 0;
+    }
+
     // Propiedades encapsuladas
     private String nombre;
     private double sueldo;
     private Date altaContrato;
 }
 
-final class Jefatura extends Empleado {
+final class Jefatura extends Empleado implements Jefes {
 
     private double incentivo;
 
@@ -129,6 +133,17 @@ final class Jefatura extends Empleado {
     public double getSueldo() { // Sobrescribe el metodo heredado (lo invalida)
         double sueldoJefe = super.getSueldo(); // llama al metodo heredado sobrescrito
         return sueldoJefe + incentivo;
+    }
+
+    // Implementa tomarDecisiones
+    public String tomarDecisiones(String decision) {
+        return "Un miembro de la dirección ha tomado la decisión de: " + decision;
+    }
+
+    // Implementa estableceBonus
+    public double establece_bonus(double gratificacion) {
+        double prima = 2000;
+        return Trabajadores.bonusBase + gratificacion + prima;
     }
 
 }

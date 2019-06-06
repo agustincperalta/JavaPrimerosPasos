@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e25e2d5-fa73-418f-91d5-92ff3fa9a21a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EnumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnumDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnumDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uso_Tallas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/Jefes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/PruebaTemporizador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/Trabajadores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/UsoEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/UsoEmpleado.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored mask="*.class" />
@@ -27,95 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/poo/Clase2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Uso_Tallas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EnumDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EnumDemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/EnumDemo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AdivinaNumero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/poo/Coche.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/poo/Furgoneta.java">
+        <entry file="file://$PROJECT_DIR$/src/poo/PruebaTemporizador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PesoIdeal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/poo/UsoVehiculo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -125,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -146,7 +63,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/EntradaEjemplo2.java" />
         <option value="$PROJECT_DIR$/src/Acceso_aplicación.java" />
-        <option value="$PROJECT_DIR$/src/poo/UsoEmpleado.java" />
         <option value="$PROJECT_DIR$/src/poo/Uso_persona.java" />
         <option value="$PROJECT_DIR$/src/paquetepruebas/Clase3.java" />
         <option value="$PROJECT_DIR$/src/poo/Clase1.java" />
@@ -156,6 +72,11 @@
         <option value="$PROJECT_DIR$/src/EnumDemo.java" />
         <option value="$PROJECT_DIR$/src/EnumDemo2.java" />
         <option value="$PROJECT_DIR$/src/EnumDemo3.java" />
+        <option value="$PROJECT_DIR$/src/poo/Jefes.java" />
+        <option value="$PROJECT_DIR$/src/poo/Trabajadores.java" />
+        <option value="$PROJECT_DIR$/src/poo/UsoEmpleado.java" />
+        <option value="$PROJECT_DIR$/src/PruebaTemporizador.java" />
+        <option value="$PROJECT_DIR$/src/poo/PruebaTemporizador.java" />
       </list>
     </option>
   </component>
@@ -166,7 +87,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="309" />
+    <option name="x" value="158" />
+    <option name="y" value="1003" />
     <option name="width" value="1030" />
     <option name="height" value="741" />
   </component>
@@ -192,6 +114,12 @@
               <item name="PrimerosPasoss" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PrimerosPasoss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrimerosPasoss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="paquetepruebas" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,6 +136,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -225,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumDemo3">
+  <component name="RunManager" selected="Application.PruebaTemporizador">
     <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnumDemo" />
       <module name="PrimerosPasoss" />
@@ -247,15 +176,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uso_Tallas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uso_Tallas" />
+    <configuration name="PruebaTemporizador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.PruebaTemporizador" />
       <module name="PrimerosPasoss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uso_persona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.Uso_persona" />
+    <configuration name="UsoEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.UsoEmpleado" />
       <module name="PrimerosPasoss" />
       <extension name="coverage">
         <pattern>
@@ -269,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebaTemporizador" />
+        <item itemvalue="Application.UsoEmpleado" />
         <item itemvalue="Application.EnumDemo3" />
         <item itemvalue="Application.EnumDemo2" />
         <item itemvalue="Application.EnumDemo" />
-        <item itemvalue="Application.Uso_Tallas" />
-        <item itemvalue="Application.Uso_persona" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +228,8 @@
       <workItem from="1559497865183" duration="12620000" />
       <workItem from="1559519412635" duration="1618000" />
       <workItem from="1559610110890" duration="3675000" />
-      <workItem from="1559615406529" duration="6767000" />
+      <workItem from="1559615406529" duration="7542000" />
+      <workItem from="1559825229555" duration="5405000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Commit">
       <created>1559520144836</created>
@@ -330,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559615537158</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Agrega clases de practica Enum">
+      <created>1559652082157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559652082157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24680000" />
+    <option name="totallyTimeSpent" value="30860000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -346,19 +289,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1372" height="772" extended-state="6" />
+    <frame x="-3" y="767" width="1372" height="745" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32954547" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.11320755" visible="true" weight="0.19621213" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.11320755" visible="true" weight="0.19924243" />
       <window_info id="Structure" order="6" sideWeight="0.8867925" side_tool="true" weight="0.19318181" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32713178" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32686085" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.3116279" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.17799352" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32956383" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -367,7 +311,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32868218" />
-      <window_info anchor="bottom" x="776" y="888" width="407" height="644" id="Run" order="12" weight="0.28527132" />
+      <window_info anchor="bottom" x="776" y="888" width="407" height="644" id="Run" order="12" visible="true" weight="0.28478965" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" weight="0.32954547" />
@@ -426,7 +370,8 @@
     <MESSAGE value="Primer Commit" />
     <MESSAGE value="Agrega otro usuario al array misEmpleados en UsoEmpleado.java" />
     <MESSAGE value="Agrega clases para probar los modificadores de acceso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrega clases para probar los modificadores de acceso" />
+    <MESSAGE value="Agrega clases de practica Enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agrega clases de practica Enum" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/poo/Pruebas.java">
@@ -478,13 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/poo/UsoEmpleado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/poo/Clase1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -520,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/poo/Clase2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/paquetepruebas/Clase3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -534,17 +465,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Uso_Tallas.java">
+    <entry file="file://$PROJECT_DIR$/src/AdivinaNumero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnumDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/EnumDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="1" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -558,17 +489,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdivinaNumero.java">
+    <entry file="file://$PROJECT_DIR$/src/EnumDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="-384">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnumDemo3.java">
+    <entry file="file://$PROJECT_DIR$/src/Uso_Tallas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="88">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poo/Jefes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poo/Trabajadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poo/UsoEmpleado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poo/Clase2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poo/PruebaTemporizador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
